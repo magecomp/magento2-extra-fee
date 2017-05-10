@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <Extrafee>
+            <Extrafee>
+                <status>1</status>
+            </Extrafee>
+        </Extrafee>
+        <Extrafee>
+            <Extrafee>
+                <name>Extra Fee</name>
+            </Extrafee>
+        </Extrafee>
+		<Extrafee>
+            <Extrafee>
+                <Extrafee_amount>5</Extrafee_amount>
+            </Extrafee>
+        </Extrafee>
+    </default>
+</config>

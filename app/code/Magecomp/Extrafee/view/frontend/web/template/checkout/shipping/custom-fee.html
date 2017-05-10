@@ -1,0 +1,5 @@
+<div data-bind="visible: canVisibleExtrafeeBlock">
+    <input type="checkbox" name="custom-fee" value="custom-fee"/>
+    <span data-bind="text: getFormattedPrice()" class="price" style="font-weight: 600"></span>
+    <span data-bind="text: getFeeLabel()"></span>
+</div>

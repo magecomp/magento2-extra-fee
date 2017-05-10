@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+	    
+		<tab id="magecomp" translate="label" sortOrder="100">
+            <label><![CDATA[<img src="https://www.magecomp.com/media/images/magecomp--extension.png" alt="MAGECOMP" height="25" style="vertical-align:middle;"/>]]></label>
+        </tab>
+		
+		<section id="Extrafee" translate="label" type="text" sortOrder="40" showInDefault="1" showInWebsite="1"
+                 showInStore="1">
+            <class>separator-top</class>
+            <label>Extra Fee</label>
+            <tab>magecomp</tab>
+            <resource>Magecomp_Extrafee::config_extrafee</resource>
+
+            <group id="Extrafee" translate="label" type="text" sortOrder="500" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Configuration</label>
+                <field id="status" translate="label comment" type="select" sortOrder="1" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Extra Fee</label>
+                    <source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+                </field>
+                <field id="name" translate="label comment" type="text" sortOrder="2" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Fee Name</label>                 
+                </field>
+                <field id="Extrafee_amount" translate="label comment" type="text" sortOrder="3" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Extra Fee Amount</label>
+                    <validate>validate-number validate-zero-or-greater</validate>
+					 <comment><![CDATA[Applies as Fixed Amount]]></comment>
+                </field>
+                <field id="minimum_order_amount" translate="label comment" type="text" sortOrder="4" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Minimum Order Amount To Display Extra Fee</label>
+                    <validate>validate-number validate-zero-or-greater</validate>
+                </field>
+            </group>
+		</section>
+
+    </system>
+</config>
