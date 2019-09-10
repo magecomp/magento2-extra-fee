@@ -1,8 +1,6 @@
 <?php
 namespace Magecomp\Extrafee\Model\Quote\Total;
 
-use Magento\Store\Model\ScopeInterface;
-
 class Fee extends \Magento\Quote\Model\Quote\Address\Total\AbstractTotal
 {
 
@@ -50,9 +48,21 @@ class Fee extends \Magento\Quote\Model\Quote\Address\Total\AbstractTotal
             $total->setBaseTotalAmount('fee', $fee);
             $total->setFee($fee);
             $quote->setFee($fee);
-            $total->setGrandTotal($total->getGrandTotal() + $fee);
-        
-		   
+            
+			
+			$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+			$productMetadata = $objectManager->get('Magento\Framework\App\ProductMetadataInterface');
+			$version = (float)$productMetadata->getVersion(); 
+			
+			if($version > 2.1)
+			{
+				//$total->setGrandTotal($total->getGrandTotal() + $fee);
+			}
+			else
+			{
+				$total->setGrandTotal($total->getGrandTotal() + $fee);
+			}
+			
 		}
         return $this;
     }

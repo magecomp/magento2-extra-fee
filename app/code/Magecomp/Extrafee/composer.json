@@ -1,20 +1,29 @@
 {
-  "name": "magecomp/module-extraFee",
+  "name": "magecomp/magento-2-extra-fee",
   "description": "A Magento 2 module that adds extra fee at checkout",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0"
+  },
   "type": "magento2-module",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "license": [
     "OSL-3.0",
     "AFL-3.0"
   ],
-  "require": {
-    "php": "~5.5.0|~5.6.0|~7.0.0",
-    "magento/framework": "~100.0.4"
-  },
+  "authors": [
+    {
+      "name": "Magecomp",
+      "email": "support@magecomp.com",
+      "homepage": "https://magecomp.com"
+    }
+  ],
   "autoload": {
-    "files": [ "registration.php" ],
+    "files": [
+      "registration.php"
+    ],
     "psr-4": {
       "Magecomp\\Extrafee\\": ""
     }
   }
 }
+

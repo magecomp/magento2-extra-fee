@@ -2,8 +2,6 @@
 
 namespace Magecomp\Extrafee\Model\Total;
 
-use Magento\Store\Model\ScopeInterface;
-
 class Fee extends \Magento\Quote\Model\Quote\Address\Total\AbstractTotal
 {
 
@@ -90,9 +88,6 @@ class Fee extends \Magento\Quote\Model\Quote\Address\Total\AbstractTotal
      */
     protected function clearValues(\Magento\Quote\Model\Quote\Address\Total $total)
     {
-       // $enabled = $this->helperData->isModuleEnabled();
-       // $minimumOrderAmount = $this->helperData->getMinimumOrderAmount();
-       // $subtotal = $total->getTotalAmount('subtotal');
         $total->setTotalAmount('subtotal', 0);
         $total->setBaseTotalAmount('subtotal', 0);
         $total->setTotalAmount('tax', 0);
