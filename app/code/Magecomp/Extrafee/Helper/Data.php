@@ -21,8 +21,7 @@ class Data extends AbstractHelper
     {
 
         $storeScope = \Magento\Store\Model\ScopeInterface::SCOPE_STORE;
-        $isEnabled = $this->scopeConfig->getValue(self::CONFIG_CUSTOM_IS_ENABLED, $storeScope);
-        return $isEnabled;
+        return $this->scopeConfig->getValue(self::CONFIG_CUSTOM_IS_ENABLED, $storeScope);
     }
 
     /**
@@ -33,8 +32,7 @@ class Data extends AbstractHelper
     public function getExtrafee()
     {
         $storeScope = \Magento\Store\Model\ScopeInterface::SCOPE_STORE;
-        $fee = $this->scopeConfig->getValue(self::CONFIG_CUSTOM_FEE, $storeScope);
-        return $fee;
+        return $this->scopeConfig->getValue(self::CONFIG_CUSTOM_FEE, $storeScope);
     }
 
     /**
@@ -45,8 +43,7 @@ class Data extends AbstractHelper
     public function getFeeLabel()
     {
         $storeScope = \Magento\Store\Model\ScopeInterface::SCOPE_STORE;
-        $feeLabel = $this->scopeConfig->getValue(self::CONFIG_FEE_LABEL, $storeScope);
-        return $feeLabel;
+        return $this->scopeConfig->getValue(self::CONFIG_FEE_LABEL, $storeScope);
     }
 
     /**
@@ -54,9 +51,7 @@ class Data extends AbstractHelper
      */
     public function getMinimumOrderAmount()
     {
-
         $storeScope = \Magento\Store\Model\ScopeInterface::SCOPE_STORE;
-        $MinimumOrderAmount = $this->scopeConfig->getValue(self::CONFIG_MINIMUM_ORDER_AMOUNT, $storeScope);
-        return $MinimumOrderAmount;
+        return $this->scopeConfig->getValue(self::CONFIG_MINIMUM_ORDER_AMOUNT, $storeScope);
     }
 }
