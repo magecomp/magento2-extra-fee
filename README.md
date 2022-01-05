@@ -150,6 +150,9 @@ Email: [support@magecomp.com](mailto:support@magecomp.com)
 
 [Magento 2 Checkout Success Page Extension](https://magecomp.com/magento-2-checkout-success-page.html)
 
+
+## Magento Marketplace Extensions By MageComp
+
 [SMS Notification](https://marketplace.magento.com/magecomp-module-sms.html)
 
 [Mobile Login](https://marketplace.magento.com/magecomp-module-mobilelogin.html)
