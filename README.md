@@ -59,3 +59,103 @@ The extension helps enhance the order total amount. Hence, it results in higher-
 
 If you have multiple stores, you can swiftly apply the extra charges to all your stores.
 
+## Screenshots
+**1. Configuration**
+
+Once you have successfully installed the extension, go to Stores -> Configuration to configure the extension for use.
+
+**Extra Fee:** Enable or disable extension from here.
+
+**Fee Name:** Option to set a custom extra fee title to display in-store frontend.
+
+**Extra Fee Amount:** Set your extra fee charges from here.
+
+**Minimum Order Amount to Display Extra Fee:** Specify minimum order amount to enable extra fee in store frontend.
+
+**2. Frontend**
+
+Once you have configured the extension properly, you can see an extra fee applied charge in the store frontend shopping cart page.
+
+You can also see an extra fee charged in your checkout order summary.
+
+Once your customer has placed an order from the store frontend, the admin can also see applied extra fee charges in the backend order view.
+
+## Change Log
+
+**Version 1.0.5**
+
+Now, you can easily add charge tax on the Fee
+
+**Version 1.0.4**
+
+Compatible with Magento 2.3.3 Latest Magento version
+
+**Version 1.0.3**
+
+Compatibility with Magento 2.3.2
+
+Extra fee for invoice and credit Memo Issue Resolved
+
+PayPal Issue Resolved
+
+**Version 1.0.2**
+
+Minor Bugs Fixed
+
+**Version 1.0.1**
+
+Minor Bugs Fixed
+
+## Support
+
+In case of any queries about our extensions or services, feel free to write to us at our [Support Portal](https://magecomp.com/support/).
+
+## Contact us
+
+In case you would want to contact us, reach out to us at:
+
+Phone: +917990250277
+
+Email: [support@magecomp.com](support@magecomp.com)
+
+## Other Magento 2 Extensions by MageComp
+
+[Magento 2 Store Locator Extension](https://magecomp.com/magento-2-store-locator.html)
+
+[Magento 2 Store Pickup Extension](https://magecomp.com/magento-2-store-pickup.html)
+
+[Magento 2 Custom Order Number Extension](https://magecomp.com/magento-2-custom-order-number.html)
+
+[Magento 2 Custom Options Absolute Price Extension](https://magecomp.com/magento-2-custom-options-absolute-price.html)
+
+[Magento 2 Facebook Pixel Extension](https://magecomp.com/magento-2-facebook-pixel.html)
+
+[Magento 2 Google Address Lookup Extension](https://magecomp.com/magento-2-google-address-lookup.html)
+
+[Magento 2 Social Login Extension](https://magecomp.com/magento-2-social-login.html)
+
+[Magento 2 Push Notifications Extension](https://magecomp.com/magento-2-push-notifications.html)
+
+[Magento 2 Facebook Shop Integration Extension](https://magecomp.com/magento-2-facebook-shop-integration.html)
+
+[Magento 2 Checkout Success Page Extension](https://magecomp.com/magento-2-checkout-success-page.html)
+
+[SMS Notification](https://marketplace.magento.com/magecomp-module-sms.html)
+
+[Mobile Login](https://marketplace.magento.com/magecomp-module-mobilelogin.html)
+
+[Amazon S3](https://marketplace.magento.com/magecomp-magento-2-amazon-s3.html)
+
+[SMS Notification Pro](https://marketplace.magento.com/magecomp-magento-2-sms-notification-pro.html)
+
+[Product Animated GIF](https://marketplace.magento.com/magecomp-magento-2-product-animated-gif.html)
+
+[Google Language Translator](https://marketplace.magento.com/magecomp-module-googlelangtranslator.html)
+
+[WebP Image Support](https://marketplace.magento.com/magecomp-magento-2-webp-image-support.html)
+
+[Instagram Integration](https://marketplace.magento.com/magecomp-magento-2-instagram-integration.html)
+
+[Indian GST](https://marketplace.magento.com/magecomp-module-gstcharge.html)
+
+[Save Cart Pro](https://marketplace.magento.com/magecomp-module-savecartpro.html)
