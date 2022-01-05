@@ -1,4 +1,4 @@
-[Magento 2 Extra Fee](https://magecomp.com/magento-2-extra-fee.html) by MageComp
+# [Magento 2 Extra Fee](https://magecomp.com/magento-2-extra-fee.html) by MageComp
 
 The Magento 2 Extra Fee is an extension for enabling you to charge extra for add-on services. The add-on services can include anything in shipping from gift packaging to urgent orders to parcel packaging. The extra charges applied will be exhibited on the cart page and checkout page. 
 
