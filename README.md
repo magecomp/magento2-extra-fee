@@ -7,7 +7,6 @@ The Magento 2 Extra Fee is an extension for enabling you to charge extra for add
 
 ## Requirements
 * Magento Community 2.2.0-2.4.x (CE, EE, ECE, B2B)
-* The latest available version for Magento 2.1.x is Extra Fee v1.0.5 
 
 
 ## Main Features
