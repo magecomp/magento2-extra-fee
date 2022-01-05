@@ -126,7 +126,7 @@ In case you would want to contact us, reach out to us at:
 
 Phone: +917990250277
 
-Email: [support@magecomp.com](support@magecomp.com)
+Email: [support@magecomp.com](mailto:support@magecomp.com)
 
 ## Other Magento 2 Extensions by MageComp
 
