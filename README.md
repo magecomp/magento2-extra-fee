@@ -60,9 +60,13 @@ The extension helps enhance the order total amount. Hence, it results in higher-
 If you have multiple stores, you can swiftly apply the extra charges to all your stores.
 
 ## Screenshots
+
 **1. Configuration**
 
 Once you have successfully installed the extension, go to Stores -> Configuration to configure the extension for use.
+
+![config](https://user-images.githubusercontent.com/8856845/148198405-12a42b69-5c0d-49e7-b613-883e820f7db3.png)
+
 
 **Extra Fee:** Enable or disable extension from here.
 
@@ -76,9 +80,15 @@ Once you have successfully installed the extension, go to Stores -> Configuratio
 
 Once you have configured the extension properly, you can see an extra fee applied charge in the store frontend shopping cart page.
 
+![frontend](https://user-images.githubusercontent.com/8856845/148198647-2c54f516-7b45-453b-96ca-72a16bc27482.png)
+
 You can also see an extra fee charged in your checkout order summary.
 
+![payment](https://user-images.githubusercontent.com/8856845/148198837-64fe8eec-3091-49e8-847f-f6f3138a8795.png)
+
 Once your customer has placed an order from the store frontend, the admin can also see applied extra fee charges in the backend order view.
+
+![checkout](https://user-images.githubusercontent.com/8856845/148199007-f8e252a0-c4ff-452d-9b6d-834f8f8a5adc.png)
 
 ## Change Log
 
