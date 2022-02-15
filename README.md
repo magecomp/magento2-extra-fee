@@ -152,22 +152,22 @@ Email: [support@magecomp.com](mailto:support@magecomp.com)
 
 ## Magento Marketplace Extensions By MageComp
 
-[SMS Notification](https://marketplace.magento.com/magecomp-module-sms.html)
+[Magento 2 SMS Notification](https://marketplace.magento.com/magecomp-module-sms.html)
 
-[Mobile Login](https://marketplace.magento.com/magecomp-module-mobilelogin.html)
+[Magento 2 Mobile Login](https://marketplace.magento.com/magecomp-module-mobilelogin.html)
 
-[Amazon S3](https://marketplace.magento.com/magecomp-magento-2-amazon-s3.html)
+[Magento 2 Amazon S3](https://marketplace.magento.com/magecomp-magento-2-amazon-s3.html)
 
-[SMS Notification Pro](https://marketplace.magento.com/magecomp-magento-2-sms-notification-pro.html)
+[Magento 2 SMS Notification Pro](https://marketplace.magento.com/magecomp-magento-2-sms-notification-pro.html)
 
-[Product Animated GIF](https://marketplace.magento.com/magecomp-magento-2-product-animated-gif.html)
+[Magento 2 Product Animated GIF](https://marketplace.magento.com/magecomp-magento-2-product-animated-gif.html)
 
-[Google Language Translator](https://marketplace.magento.com/magecomp-module-googlelangtranslator.html)
+[Magento 2 Google Language Translator](https://marketplace.magento.com/magecomp-module-googlelangtranslator.html)
 
-[WebP Image Support](https://marketplace.magento.com/magecomp-magento-2-webp-image-support.html)
+[Magento 2 WebP Image Support](https://marketplace.magento.com/magecomp-magento-2-webp-image-support.html)
 
-[Instagram Integration](https://marketplace.magento.com/magecomp-magento-2-instagram-integration.html)
+[Magento 2 Instagram Integration](https://marketplace.magento.com/magecomp-magento-2-instagram-integration.html)
 
-[Indian GST](https://marketplace.magento.com/magecomp-module-gstcharge.html)
+[Magento 2 Indian GST](https://marketplace.magento.com/magecomp-module-gstcharge.html)
 
-[Save Cart Pro](https://marketplace.magento.com/magecomp-module-savecartpro.html)
+[Magento 2 Save Cart Pro](https://marketplace.magento.com/magecomp-module-savecartpro.html)
