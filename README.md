@@ -4,6 +4,8 @@ The Magento 2 Extra Fee is an extension for enabling you to charge extra for add
 
 <a href="https://magecomp.com/magento-2-extra-fee.html"><img width="300" height="92" src="https://magecomp.com/media/button.webp"></a>
 
+Check our Magento 2 Extra Fee Extension (PRO Version).
+<a href="https://magecomp.com/magento-2-extra-fee-pro.html"><img width="300" height="92" src="https://magecomp.com/media/button.webp"></a>
 
 ## Requirements
 * Magento Community 2.2.0-2.4.x (CE, EE, ECE, B2B)
